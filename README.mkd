@@ -44,6 +44,10 @@ You may then want to run tests:
 See the [lowRISC/riscv-llvm](https://github.com/lowRISC/riscv-llvm) repository 
 and [status page](http://www.lowrisc.org/llvm/status/).
 
+Stack frame handling will be committed once this [temporary hack in
+PrologEpilogInserter](https://github.com/lowRISC/riscv-llvm/blob/master/0021-Hack-Set-Frame-Setup-Destroy-in-PrologEpilogInserter.patch) 
+has been replaced with something appropriate for upstream.
+
 ## Contributing
 
 Pull requests that build on top of this repository's lib/Target/RISCV 
